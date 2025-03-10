@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #12e7e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+form {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+input, select, button {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    align-items: center;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.admin-container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Status Colors */
+.pending-status {
+    color: orange;
+    font-weight: bold;
+}
+
+.approved-status {
+    color: green;
+    font-weight: bold;
+}
+
+.rejected-status {
+    color: red;
+    font-weight: bold;
+}
+
+/* Buttons */
+.approve-btn, .reject-btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.approve-btn {
+    background: green;
+    color: white;
+}
+
+.reject-btn {
+    background: red;
+    color: white;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination-btn {
+    padding: 8px 12px;
+    margin: 0 5px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pagination-btn:hover {
+    background: #0056b3;
+}
+
+/* Logout */
+.logout-btn {
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background: darkred;
+}
